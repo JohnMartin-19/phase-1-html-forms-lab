@@ -12,37 +12,44 @@
 
     <!-- First, create a form tag where our inputs will be nested -->
 
-
+    <form action="">
       <!-- Add a label for 'fullname'-->
-
+      <label for="name">Enter Name</label>
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
+      <input type="text" id="fullname" name="fullname" placeholder="Enter Name" required>
       <!-- Include the place holder text "Enter Name" and make this input required -->
 
 
       <!-- Add a label for 'email'-->
-
+      <label for="email">Enter Email</label>
       <!-- Add a email input with the id and name attributes set to 'email' -->
+      <input type="text" name="email" id="email" placeholder="Enter Email" required>
       <!-- Include the place holder text "Enter Email" and make this input required -->
 
 
       <!-- Add a label for 'phone'-->
-
+      <label for="phone">Enter phone</label>
       <!-- Add a telephone input with the id and name attributes set to 'phone' -->
+      <input type="tel" id="tel" name="tel" placeholder="Enter phone number">
       <!-- Include the place holder text "Enter Telephone (optional)" -->
 
 
       <!-- Add a label for 'message'-->
-
+      <label for="message">Additional Message</label>
       <!-- Add a textarea tag with the id and name attributes set to 'message' -->
+      <textarea name="txt" id="txt" cols="30" rows="10" placeholder="message"> </textarea>
       <!-- Include the place holder text "Enter Message" -->
 
 
       <!-- Add a checkbox input with the id set to 'checkbox' -->
-
+      <h3>Choose your best pet</h3>
+      <input type="checkbox" id="checkbox" value="kong">Dog
+      <input type="checkbox" id="checkbox" value="king">Cat
 
 
       <!-- Add an input with the type set to 'submit' -->
-
+      <button class="btn btn-success"> Submit </button>
+    </form>
     
   </body>
 </html>
